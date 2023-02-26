@@ -48,5 +48,5 @@ mongoose.connect(process.env.CONNECTION_STRING)
 
 
 app.listen(port, ()=> {
-    console.log(`Listening to Url : http://localhost:${port}`);
+    console.log(`Listening to url: http://localhost:${port}`);
 })    
