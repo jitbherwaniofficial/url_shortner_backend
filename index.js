@@ -26,8 +26,8 @@ app.get('/:shortUrl', async (req, res) => {
     if (url) {
         res.redirect(url.longUrl);
     } else {
-        res.status(404).send('Not Found');
-    }
+        res.status(404).send('Not Found'); 
+    } 
 });
 
 
